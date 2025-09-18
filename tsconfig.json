@@ -9,6 +9,12 @@
     "strict": true,
     "noEmit": true,
     "incremental": true,
-    "skipLibCheck": true
+    "skipLibCheck": true,
+
+    // 👇 add these two lines
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["*"]
+    }
   }
 }
